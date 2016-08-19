@@ -19,5 +19,8 @@ public class Test {
 	public void PrintValue() {
 		System.out.println("yanrui testing....");
 	}
+	public  void ToString() {
+		System.out.println("123");
+	}
 	
 }
