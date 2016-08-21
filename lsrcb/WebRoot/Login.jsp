@@ -3,13 +3,13 @@
 String path = request.getContextPath();
 String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
 %>
-
+<%@ page isELIgnored="false" %>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
     <base href="<%=basePath%>">
     
-    <title>My JSP 'MyJsp.jsp' starting page</title>
+    <title>lsrcb</title>
     
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
@@ -23,6 +23,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   
   <body>
-  
+  ${request.username}
+  <input type="text" 	name="username"  value=${param.username}>
+  <%=request.getParameter("username") %>
   </body>
 </html>

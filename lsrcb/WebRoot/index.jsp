@@ -43,7 +43,7 @@ input .btn1 {
 </head>
 
 <body class=" bc" >
-<form action="/Login" method="post">
+<form action="Login.jsp" method="post">
   <div class="container-fluid  bc ">
     <div class="row  ">
       <div class="col-lg-4 "></div>
